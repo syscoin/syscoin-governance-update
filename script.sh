@@ -16,13 +16,15 @@ pause(){
   read -n1 -rsp $'Press any key to continue or Ctrl+C to exit...\n'
 }
 
-do_exit(){
+do_entry(){
   echo ""
   echo "======================================================================================"
   echo "            Update script for Governance GenKey"
   echo "======================================================================================"
   exit 0
 }
+
+do_entry
 
 start_syscoind(){
   echo "$MESSAGE_SYSCOIND"
@@ -42,13 +44,6 @@ stop_syscoind(){
 # errors are shown if LC_ALL is blank when you run locale
 if [ "$LC_ALL" = "" ]; then export LC_ALL="$LANG"; fi
 
-clear
-echo "$MESSAGE_WELCOME"
-pause
-clear
-
-echo "$MESSAGE_PLAYER_ONE"
-sleep 1
 clear
 
 RESOLVED_ADDRESS=$(curl -s ipinfo.io/ip)
