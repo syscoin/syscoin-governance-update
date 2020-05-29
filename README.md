@@ -14,6 +14,6 @@ How to create new Masternode Governance Voting Key;
 8. Head back to your QT and reinitialize your Masternode
 
 **Notes:** 
-```Seniority will not be effected (this is based on the tx of 100k)
-You will now be required to requalify for rewards payouts.
-This is only for users that have registered for sys hub.```
+-Seniority will not be effected (this is based on the tx of 100k)
+-You will now be required to requalify for rewards payouts.
+-This is only for users that have registered for sys hub.
