@@ -10,7 +10,7 @@ How to create new Masternode Governance Voting Key;
 5. Open up your VPS
 6. Run this script
 
-```bash <(curl -sL https://raw.githubusercontent.com/bigpoppa-sys/syscoin-governance-update/master/script.sh)```
+```bash <(curl -sL https://raw.githubusercontent.com/syscoin/syscoin-governance-update/master/script.sh)```
 
 7. Press Enter for External IP Address, Masternode Port. Enter in your new Masternode Governance Voting Key.
 8. Head back to your QT and reinitialize your Masternode.
