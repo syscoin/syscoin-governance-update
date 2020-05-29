@@ -96,7 +96,7 @@ if [ "$MASTERNODE_PORT" = "" ]; then
 fi
 
 masternode_private_key(){
-  read -e -p "Masternode Private Key [$masternodeprivkey]: " MASTERNODE_PRIVATE_KEY
+  read -e -p "Masternode Governance Voting Key [$masternodeprivkey]: " MASTERNODE_PRIVATE_KEY
   if [ "$MASTERNODE_PRIVATE_KEY" = "" ]; then
     if [ "$masternodeprivkey" != "" ]; then
       MASTERNODE_PRIVATE_KEY="$masternodeprivkey"
