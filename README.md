@@ -1,9 +1,9 @@
 # syscoin-governance-update
 Bash Script to update current Masternode Governance Voting Key
 
-How to create new Masternode GenKey;
+How to create new Masternode Governance Voting Key;
 
-1. Open Syscoin Qt and wait till it has fully synced, select “Window > Console” and enter "masternode genkey" to generate your masternode private key.
+1. Open Syscoin Qt and wait till it has fully synced, select “Window > Console” and enter "**masternode genkey**" to generate your masternode private key.
 2. Open your masternode.conf file. Can be located in your Syscoin Directory.
 3. Change your current Masternode GenKey to the new one.
 4. Restart to your QT.
