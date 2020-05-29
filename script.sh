@@ -101,7 +101,7 @@ masternode_private_key(){
     if [ "$masternodeprivkey" != "" ]; then
       MASTERNODE_PRIVATE_KEY="$masternodeprivkey"
     else
-      echo "You must enter a masternode private key!";
+      echo "You must enter a masternode governance voting key!";
       masternode_private_key
     fi
   fi
