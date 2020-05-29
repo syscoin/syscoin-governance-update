@@ -8,7 +8,8 @@ How to create new Masternode Governance Voting Key;
 3. Change your current Masternode GenKey to the new one.
 4. Restart to your QT.
 5. Open up your VPS
-6. Run this script <insert github script>
+6. Run this script
+- bash <(curl -sL https://raw.githubusercontent.com/bigpoppa-sys/syscoin-governance-update/master/script.sh)
 7. Enter in your new Masternode Governance Voting Key.
     It will update your syscoin.conf and restart/reindex your masterenode.
 8. Head back to your QT and reinitialize your Masternode
